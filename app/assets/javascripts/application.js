@@ -15,3 +15,17 @@
 //= require turbolinks
 //= require bootstrap-sprockets
 //= require_tree .
+
+$(document).ready(homepage);
+$(document).on("page:load", homepage);
+
+function homepage () {
+
+
+	$("#about-me").click(function(){
+	
+		$(".left-box").toggle("fast");
+		$(".about-me").toggle("fast");
+	})
+
+}
