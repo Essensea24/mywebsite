@@ -21,11 +21,20 @@ $(document).on("page:load", homepage);
 
 function homepage () {
 
-
+	console.log("homepage is loaded")
 	$("#about-me").click(function(){
 	
 		$(".left-box").toggle("fast");
 		$(".about-me").toggle("fast");
+	})
+
+	$(".work-two").hover(function() {
+		console.log("touched")
+		$(".work-two").toggleClass("work-two_hover")
+	})
+
+	$(".work-three").hover(function(){
+		$(".work-three").toggleClass("work-three_hover")
 	})
 
 }
