@@ -26,6 +26,7 @@ function homepage () {
 	
 		$(".hello-box").toggle("fast");
 		$(".about-me").toggle("fast");
+		$("#my-navbar-collapse-1").toggle("fast");
 	});
 
 	$("#contact-me").click(function(){
@@ -75,5 +76,10 @@ function homepage () {
 		$(".about-me").toggle("fast");
 		$(".hello-box").toggle("fast");
 	})
+
+	$("button.navbar-toggle").click(function() {
+		$("#my-navbar-collapse-1").toggle("fast")
+	})
+
 
 }
