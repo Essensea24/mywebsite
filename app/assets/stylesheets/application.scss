@@ -327,6 +327,13 @@ div.work-box{
 
 }
 
+.about-close-box, .contact-close-box {
+	border-radius: 0px;
+	background-color: transparent;
+	border: 1px white solid;
+	color: white;
+}
+
 @media screen and (max-width: 768px) {
 	div.about-me {
 		width: 100%;
@@ -348,7 +355,7 @@ div.work-box{
 
 	div.contact-me {
 		width: 100%;
-		height: 450px;
+		height: 500px;
 	}
 
 	div.btn.btn-default {

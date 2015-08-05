@@ -32,6 +32,7 @@ function homepage () {
 	$("#contact-me").click(function(){
 		$(".hello-box").toggle("fast");
 		$(".contact-me").toggle("fast");
+		$("#my-navbar-collapse-1").toggle("fast");
 	})
 
 	$(".work-one").hover(function() {
@@ -72,14 +73,23 @@ function homepage () {
 		$(".work-two").toggle("fast");
 	})
 
-	$(".close-box").click(function(){
+	$(".about-close-box").click(function(){
 		$(".about-me").toggle("fast");
 		$(".hello-box").toggle("fast");
 	})
 
+	$(".contact-close-box").click(function(){
+		$(".contact-me").toggle("fast");
+		$(".hello-box").toggle("fast");
+	})
+
+
+
 	$("button.navbar-toggle").click(function() {
 		$("#my-navbar-collapse-1").toggle("fast")
 	})
+
+
 
 
 }
