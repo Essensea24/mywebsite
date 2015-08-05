@@ -60,11 +60,12 @@ div.hello-box {
 		width: 50%;
 	}
 
-	h1.hello {
+	h2.hello {
 		font-family: 'Poiret One', cursive;
-		font-size: 100px;
+		font-size: 90px;
 	    	color: white;
 	    	padding-top: 4%;
+	    	margin-top: 8%;
 	}
 
 	div.right-box {
@@ -222,6 +223,7 @@ a.project3.btn-default:hover {
 	background-color: #4A96AD;
 	text-align: center;
 	border: 5px white solid;
+	margin-top: 1%;
 
 	h3 {
 		padding-top: 2%;
@@ -318,6 +320,122 @@ div.work-box{
 
 	
 	}
+
+
+
+
+}
+
+@media screen and (max-width: 768px) {
+	div.about-me {
+		display: none;
+		width: 100%;
+	}
+
+	div.image {
+		width: 100%;
+		margin-bottom: 0%;
+		margin-left: 0%;
+	}
+
+	div.bio {
+		width: 400px;
+		margin-bottom: 0%;
+		margin-left: 0%;
+
+	}
+
+	div.contact-me {
+		width: 100%;
+		height: 450px;
+	}
+
+	div.btn.btn-default {
+		margin-left: -10%;
+		
+	}
+
+
+	div.tic-tac-toe {
+	display: none;
+	width: 100%;
+	height: 400px;
+	background-color: #e9bc1b;
+	margin-top: -8%;
+	}
+
+	div.projectone-top {
+		width: 100%;
+		position: relative;
+		margin-top: 5%;
+	}
+
+	div.background{
+		background-image: url("http://i.imgur.com/4gA2xKH.png");
+		background-repeat: none;
+		width: 90%;
+		height: 200px;
+		border: 5px black solid;
+		margin: 0 auto;
+	}
+
+	div.projectone-bottom {
+		width: 100%;
+		position: relative;
+	}
+
+	div.detail {
+		width: 90%;
+		height: 200px;
+		margin-top: 10%;
+
+
+
+	}
+
+	div.feedyoself {
+		display: none;
+		width: 100%;
+		height: 460px;
+		background-color: #4A96AD;
+		margin-top: -8%
+	}
+
+
+
+	div.background2{
+		background-image: url("http://i.imgur.com/8YOsMjk.png");
+		background-repeat: none;
+		width: 90%;
+		height: 200px;
+		border: 5px black solid;
+		margin: 0 auto;
+		margin-top: 5%;
+	}
+
+	div.meet-me-at {
+		display: none;
+		width: 100%;
+		height: 450px;
+		background-color: #cf4858;
+		margin-top: -8%
+	}
+
+	div.background3{
+		background-image: url("http://i.imgur.com/CzOulQo.png");
+		background-repeat: none;
+		width: 90%;
+		height: 200px;
+		border: 5px black solid;
+		margin: 0 auto;
+		margin-top: 5%;
+	}
+
+	h2.hello {
+		margin-top: 30%;
+	}
+
+
 }
 
 
