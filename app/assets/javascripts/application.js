@@ -24,7 +24,7 @@ function homepage () {
 	console.log("homepage is loaded")
 	$("#about-me").click(function(){
 	
-		$(".left-box").toggle("fast");
+		$(".hello-box").toggle("fast");
 		$(".about-me").toggle("fast");
 	});
 
