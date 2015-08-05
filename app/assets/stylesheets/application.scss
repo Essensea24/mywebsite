@@ -60,11 +60,12 @@ div.hello-box {
 		width: 50%;
 	}
 
-	h1.hello {
+	h2.hello {
 		font-family: 'Poiret One', cursive;
-		font-size: 100px;
+		font-size: 90px;
 	    	color: white;
 	    	padding-top: 4%;
+	    	margin-top: 8%;
 	}
 
 	div.right-box {
@@ -116,15 +117,16 @@ div.background{
 div.about-me {
 	display: none;
 	width: 100%;
-	height: 450px;
-	background-color: grey;
+	height: 400px;
+	background-color: black;
+
 }
 
 div.image {
 	background-image: url("http://i.imgur.com/vTiiE8w.png");
 	width: 400px;
 	height: 400px;
-	border: 5px black solid;
+	border: 5px white solid;
 	margin-left: 5%;
 	margin-top: 3%;
 	margin-bottom: 3%;
@@ -132,6 +134,7 @@ div.image {
 
 div.bio {
 	margin-top: 5%;
+	color: white;
 }
 a.project1.btn-default {
 	border-radius: 0px;
@@ -214,6 +217,46 @@ a.project3.btn-default:hover {
 
 }
 
+.contact-me {
+	display: none;
+	width: 100%;
+	height: 300px;
+	background-color: #4A96AD;
+	text-align: center;
+	border: 5px white solid;
+	margin-top: 1%;
+
+	h3 {
+		padding-top: 2%;
+		padding-bottom: 3%;
+		color: white;
+	}
+
+	.input-md {
+		border-radius: 0px;
+	}
+
+	.input-md:hover {
+
+		background-color:transparent;
+		color: white;
+
+	}
+
+	.btn-md {
+		border-radius: 0px;
+		background-color: transparent;
+		color: white;
+	}
+
+	.btn-md:hover {
+
+		background-color: white;
+		color: #4A96AD;
+
+	}
+}
+
 
 
 div.work-box{
@@ -223,7 +266,7 @@ div.work-box{
 		width: 33%;
 		height: 400px;
 		background-color: #e9bc1b;
-		overflow: hidden;
+		
 
 
 	}
@@ -278,6 +321,122 @@ div.work-box{
 
 	
 	}
+
+
+
+
+}
+
+@media screen and (max-width: 768px) {
+	div.about-me {
+		display: none;
+		width: 100%;
+	}
+
+	div.image {
+		width: 100%;
+		margin-bottom: 0%;
+		margin-left: 0%;
+	}
+
+	div.bio {
+		width: 400px;
+		margin-bottom: 0%;
+		margin-left: 0%;
+
+	}
+
+	div.contact-me {
+		width: 100%;
+		height: 450px;
+	}
+
+	div.btn.btn-default {
+		margin-left: -10%;
+		
+	}
+
+
+	div.tic-tac-toe {
+	display: none;
+	width: 100%;
+	height: 400px;
+	background-color: #e9bc1b;
+	margin-top: -8%;
+	}
+
+	div.projectone-top {
+		width: 100%;
+		position: relative;
+		margin-top: 5%;
+	}
+
+	div.background{
+		background-image: url("http://i.imgur.com/4gA2xKH.png");
+		background-repeat: none;
+		width: 90%;
+		height: 200px;
+		border: 5px black solid;
+		margin: 0 auto;
+	}
+
+	div.projectone-bottom {
+		width: 100%;
+		position: relative;
+	}
+
+	div.detail {
+		width: 90%;
+		height: 200px;
+		margin-top: 10%;
+
+
+
+	}
+
+	div.feedyoself {
+		display: none;
+		width: 100%;
+		height: 460px;
+		background-color: #4A96AD;
+		margin-top: -8%
+	}
+
+
+
+	div.background2{
+		background-image: url("http://i.imgur.com/8YOsMjk.png");
+		background-repeat: none;
+		width: 90%;
+		height: 200px;
+		border: 5px black solid;
+		margin: 0 auto;
+		margin-top: 5%;
+	}
+
+	div.meet-me-at {
+		display: none;
+		width: 100%;
+		height: 450px;
+		background-color: #cf4858;
+		margin-top: -8%
+	}
+
+	div.background3{
+		background-image: url("http://i.imgur.com/CzOulQo.png");
+		background-repeat: none;
+		width: 90%;
+		height: 200px;
+		border: 5px black solid;
+		margin: 0 auto;
+		margin-top: 5%;
+	}
+
+	h2.hello {
+		margin-top: 30%;
+	}
+
+
 }
 
 
