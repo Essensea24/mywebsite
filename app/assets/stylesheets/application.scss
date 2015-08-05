@@ -329,8 +329,8 @@ div.work-box{
 
 @media screen and (max-width: 768px) {
 	div.about-me {
-		display: none;
 		width: 100%;
+		height:750px;
 	}
 
 	div.image {
@@ -340,7 +340,7 @@ div.work-box{
 	}
 
 	div.bio {
-		width: 400px;
+		width: 100%;
 		margin-bottom: 0%;
 		margin-left: 0%;
 
