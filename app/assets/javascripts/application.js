@@ -28,6 +28,11 @@ function homepage () {
 		$(".about-me").toggle("fast");
 	});
 
+	$("#contact-me").click(function(){
+		$(".hello-box").toggle("fast");
+		$(".contact-me").toggle("fast");
+	})
+
 	$(".work-one").hover(function() {
 		
 		$(".work-one").toggleClass("work-one_hover");

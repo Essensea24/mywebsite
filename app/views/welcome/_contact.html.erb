@@ -1,0 +1,31 @@
+<h3>fill out your info</h3>
+
+
+
+<div class= " form-inline ">
+
+	<%= form_tag "/users", method: :post do %>
+
+		
+		<div class="form-group">
+		
+			<p><%= text_field_tag "user[firstname]", nil, :class=>"form-control input-md", placeholder: "firstname"%></p><br>
+		</div>
+
+		<div class="form-group">
+		
+			<p><%= text_field_tag "user[lastname]", nil, :class=>"form-control input-md", placeholder: "lastname" %></p><br>
+		</div>
+
+		<div class="form-group">
+			<p><%= text_field_tag "user[email]", nil, :class=>"form-control input-md",placeholder: "email"%></p><br>
+		</div>
+
+		<div class="form-group"> 	
+			<p><%= text_field_tag "user[company]", nil, :class=>"form-control input-md", placeholder: "company"%></p><br>
+		</div>
+
+		<p><%= submit_tag"Submit", class: "btn btn-default btn-md"%></p>
+	<% end %>
+
+</div>
