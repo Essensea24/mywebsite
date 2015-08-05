@@ -26,15 +26,28 @@ function homepage () {
 	
 		$(".left-box").toggle("fast");
 		$(".about-me").toggle("fast");
-	})
+	});
+
+	$(".work-one").hover(function() {
+		
+		$(".work-one").toggleClass("work-one_hover");
+		$(".no-border-one").toggle("slow");
+	});
 
 	$(".work-two").hover(function() {
-		console.log("touched")
-		$(".work-two").toggleClass("work-two_hover")
-	})
+		
+		$(".work-two").toggleClass("work-two_hover");
+		$(".no-border-two").toggle("slow");
+	});
 
 	$(".work-three").hover(function(){
-		$(".work-three").toggleClass("work-three_hover")
+		$(".work-three").toggleClass("work-three_hover");
+		$(".no-border-three").toggle("slow");
+	});
+
+	$(".work-one").click(function(){
+		$(".hello-box").toggle("fast");
+		$(".tic-tac-toe").toggle("fast");
 	})
 
 }

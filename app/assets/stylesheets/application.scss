@@ -50,14 +50,16 @@
 	width: 100%;
 }
 
+
 div.hello-box {
 	width: 100%;
 	height: 250px;
-	background-color: #6e6e6e;
+	background-color: black;
 
 	div.left-box {
 		width: 50%;
 	}
+
 	h1.hello {
 		font-family: 'Poiret One', cursive;
 		font-size: 100px;
@@ -84,6 +86,48 @@ div.hello-box {
 
 }
 
+div.hello-box:hover {
+	background-color: #6e6e6e;
+}
+
+div.tic-tac-toe {
+	display: none;
+	width: 100%;
+	height: 400px;
+	background-color: #7E8F7C;
+}
+
+div.projectone-top {
+	width: 100%;
+	position: relative;
+}
+
+div.background{
+	background-image: url("http://i.imgur.com/4gA2xKH.png");
+	background-repeat: none;
+	width: 70%;
+	height: 200px;
+	border: 5px black solid;
+	margin: 0 auto;
+	margin-top: 5%;
+}
+
+div.detail {
+	width: 50%;
+	height: 200px;
+	margin: 0 auto;
+	color: white;
+}
+
+div.tic-tac-toe.projectone-bottom {
+	background-color: pink;
+	width: 100%;
+	height: 200px;
+}
+
+
+
+
 div.work-box{
 	width: 100%;
 
@@ -91,6 +135,13 @@ div.work-box{
 		width: 33%;
 		height: 400px;
 		background-color: #e9bc1b;
+
+	}
+
+	.work-one_hover {
+		width: 34%;
+		height: 400px;
+		background-image: url("http://i.imgur.com/FV1qnv8.png")
 
 	}
 
@@ -119,12 +170,13 @@ div.work-box{
 
 	}
 
-	div.btn.no-border {
+	div.btn.btn-default {
 		border-radius: 0px;
 		background-color: transparent;
 		border: 2px white solid;
 		margin-top: 50%;
-		margin-left: 35%;
+
+	
 	}
 }
 
