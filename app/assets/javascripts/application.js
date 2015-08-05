@@ -48,6 +48,22 @@ function homepage () {
 	$(".work-one").click(function(){
 		$(".hello-box").toggle("fast");
 		$(".tic-tac-toe").toggle("fast");
+		$(".work-two").toggle("fast");
+		$(".work-three").toggle("fast");
+	})
+
+	$(".work-two").click(function(){
+		$(".hello-box").toggle("fast");
+		$(".feedyoself").toggle("fast");
+		$(".work-one").toggle("fast");
+		$(".work-three").toggle("fast");
+	})
+
+	$(".work-three").click(function(){
+		$(".hello-box").toggle("fast");
+		$(".meet-me-at").toggle("fast");
+		$(".work-one").toggle("fast");
+		$(".work-two").toggle("fast");
 	})
 
 }

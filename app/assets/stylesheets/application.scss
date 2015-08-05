@@ -94,7 +94,7 @@ div.tic-tac-toe {
 	display: none;
 	width: 100%;
 	height: 400px;
-	background-color: #7E8F7C;
+	background-color: #e9bc1b;
 }
 
 div.projectone-top {
@@ -126,6 +126,40 @@ div.tic-tac-toe.projectone-bottom {
 }
 
 
+div.feedyoself {
+	display: none;
+	width: 100%;
+	height: 400px;
+	background-color: #4A96AD;
+}
+
+div.background2{
+	background-image: url("http://i.imgur.com/8YOsMjk.png");
+	background-repeat: none;
+	width: 70%;
+	height: 200px;
+	border: 5px black solid;
+	margin: 0 auto;
+	margin-top: 5%;
+}
+
+div.meet-me-at {
+	display: none;
+	width: 100%;
+	height: 400px;
+	background-color: #cf4858;
+}
+
+div.background3{
+	background-image: url("http://i.imgur.com/CzOulQo.png");
+	background-repeat: none;
+	width: 70%;
+	height: 200px;
+	border: 5px black solid;
+	margin: 0 auto;
+	margin-top: 5%;
+}
+
 
 
 div.work-box{
@@ -135,38 +169,49 @@ div.work-box{
 		width: 33%;
 		height: 400px;
 		background-color: #e9bc1b;
+		overflow: hidden;
+
 
 	}
 
 	.work-one_hover {
-		width: 34%;
+		width: 33%;
 		height: 400px;
-		background-image: url("http://i.imgur.com/FV1qnv8.png")
+		background-image: url("http://i.imgur.com/FV1qnv8.png");
+		overflow: hidden;
+
 
 	}
 
 	.work-two {
 		width: 34%;
 		height: 400px;
-		background-color: #f5eacd;
+		background-color: #4A96AD;
+		overflow: hidden;
+
 	}
 
 	.work-two_hover {
 		width: 34%;
 		height: 400px;
-		background-image: url("http://i.imgur.com/2Wummke.png")
+		background-image: url("http://i.imgur.com/2Wummke.png");
+		overflow: hidden;
+
 	}
 
 	.work-three {
 		width: 33%;
 		height: 400px;
 		background-color: #cf4858;
+		overflow: hidden;
+
 	}
 
 	.work-three_hover {
 		width: 33%;
 		height: 400px;
-		background-image: url("http://i.imgur.com/JBt84du.png")
+		background-image: url("http://i.imgur.com/JBt84du.png");
+		overflow: hidden;
 
 	}
 
@@ -175,6 +220,7 @@ div.work-box{
 		background-color: transparent;
 		border: 2px white solid;
 		margin-top: 50%;
+		color: white;
 
 	
 	}
