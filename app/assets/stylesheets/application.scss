@@ -327,11 +327,20 @@ div.work-box{
 
 }
 
-.about-close-box, .contact-close-box {
+.about-close-box, .contact-close-box, {
 	border-radius: 0px;
 	background-color: transparent;
 	border: 1px white solid;
 	color: white;
+}
+
+.project3-close-box, .project2-close-box, .project1-close-box {
+
+	border-radius: 0px;
+	background-color: transparent;
+	color: white;
+	border: white solid;
+
 }
 
 @media screen and (max-width: 768px) {

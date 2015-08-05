@@ -83,11 +83,36 @@ function homepage () {
 		$(".hello-box").toggle("fast");
 	})
 
+	$(".project1-close-box").click(function(){
+		$(".hello-box").toggle("fast");
+		$(".tic-tac-toe").toggle("fast");
+		$(".work-two").toggle("fast");
+		$(".work-three").toggle("fast");
+	})
+
+	$(".project2-close-box").click(function(){
+		$(".hello-box").toggle("fast");
+		$(".feedyoself").toggle("fast");
+		$(".work-one").toggle("fast");
+		$(".work-three").toggle("fast");
+	})
+
+	$(".project3-close-box").click(function(){
+		$(".hello-box").toggle("fast");
+		$(".meet-me-at").toggle("fast");
+		$(".work-one").toggle("fast");
+		$(".work-two").toggle("fast");
+	})
+
+
+
 
 
 	$("button.navbar-toggle").click(function() {
 		$("#my-navbar-collapse-1").toggle("fast")
 	})
+
+
 
 
 
