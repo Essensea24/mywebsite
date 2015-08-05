@@ -21,7 +21,7 @@ $(document).on("page:load", homepage);
 
 function homepage () {
 
-	console.log("homepage is loaded")
+	
 	$("#about-me").click(function(){
 	
 		$(".hello-box").toggle("fast");
