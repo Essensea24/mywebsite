@@ -66,4 +66,9 @@ function homepage () {
 		$(".work-two").toggle("fast");
 	})
 
+	$(".close-box").click(function(){
+		$(".about-me").toggle("fast");
+		$(".hello-box").toggle("fast");
+	})
+
 }
