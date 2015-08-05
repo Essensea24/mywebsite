@@ -133,20 +133,26 @@ div.detail {
 
 }
 
-div.tic-tac-toe.projectone-bottom {
-	background-color: pink;
-	width: 100%;
-	height: 200px;
-}
-
 
 div.feedyoself {
 	display: none;
 	width: 100%;
-	height: 400px;
+	height: 450px;
 	background-color: #4A96AD;
 }
 
+a.project2.btn-default {
+	border-radius: 0px;
+	background-color: transparent;
+	color: white;
+	border: white solid;
+}
+
+a.project2.btn-default:hover {
+	background-color: white;
+	color: #4A96AD;
+
+}
 div.background2{
 	background-image: url("http://i.imgur.com/8YOsMjk.png");
 	background-repeat: none;
@@ -160,7 +166,7 @@ div.background2{
 div.meet-me-at {
 	display: none;
 	width: 100%;
-	height: 400px;
+	height: 450px;
 	background-color: #cf4858;
 }
 
